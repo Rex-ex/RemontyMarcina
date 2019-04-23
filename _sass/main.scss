@@ -11,11 +11,76 @@ html{
 }
 .wrapper{
   width: 100%;
-  background: grey;
+  background: $whiteDirt;
   overflow: hidden;
   a, a:hover{
     text-decoration: none;
     color:inherit;
   }
+}
+.cardContainer{
+  position: relative;
+  @include flexbox();
+  padding: 4rem 0 4rem 0;
+  min-height: 45rem;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif 'Calibri';
+  font-size: 1.5rem;
+}
+.centeredContent{
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include align-items(center);
+  width: 75%;
+  line-height: 3rem;
+  opacity: 1;
+  z-index: 20;
 
+  @include respond-above(xs){
+  width: 70%;
+  line-height: 3rem;
+  font-size: 2rem;
+  }
+
+  @include respond-above(sm){
+  width: 70%;
+  line-height: 4rem;
+  font-size: 2rem;
+  }
+
+  @include respond-above(md){
+  width: 60%;
+  line-height: 4rem;
+  font-size: 2rem;
+  }
+
+  @include respond-above(lg){
+  width: 50%;
+  line-height: 4rem;
+  font-size: 2rem;
+  }
+}
+// #1
+#jumbo{
+  height: 100vh;
+  background-image: url("../img/bkg/wallMockup.jpg");
+  & #logo{
+    img{
+      height: 15rem;
+      width: 30rem;
+    }
+  }
+}
+// #2
+#welcome{
+
+}
+// #3
+#gallery{
+  background-image: url("../img/bkg/blackBoard.jpg");
+}
+#contact{
+  background-image: url("../img/bkg/wall2.jpg");
 }
