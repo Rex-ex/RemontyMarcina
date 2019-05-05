@@ -70,9 +70,16 @@ html{
 // END - GLOBALS
 // #1
 #jumbo{
+  position: relative;
   height: 100vh;
   background-image: url("../img/bkg/wallMockup.jpg");
+  background-position: center bottom;
+  background-size: cover;
   & #logo{
+    position: absolute;
+    top: 2rem;
+    left:1rem;
+    z-index: 20;
     img{
       height: 7.5rem;
       width: 15rem;
@@ -80,8 +87,8 @@ html{
   }
   & #menuHam{
     position: fixed;
-    top:2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     height: 4rem;
     width: 4rem;
     background: url("../icons/menuIcon.svg");
@@ -89,25 +96,49 @@ html{
     z-index: 50;
   }
   & #carouselContainer{
-    height: 28rem;
-    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+    width: 50rem;
     border: 0.125rem solid $whiteDirt;
     border-radius: 0.125rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    z-index: 10;
     img{
-      max-width:100%;
-      max-height:100%;
+      height: 30rem;
+      width: 50rem;
     }
+
   }
 }
 
 // #2
 #welcome{
 
+  & #infoGraph{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img{
+      height: 30rem;
+      width: 50rem;
+    }
+  }
 }
 // #3
 #gallery{
   background-image: url("../img/bkg/blackBoard.jpg");
 }
+// #4
+#about{
+
+}
+// #5
 #contact{
   background-image: url("../img/bkg/wall2.jpg");
 }
