@@ -104,7 +104,7 @@ html{
     width: 50rem;
     border: 0.125rem solid $whiteDirt;
     border-radius: 0.125rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: $shadowBlack;
     overflow: hidden;
     z-index: 10;
     img{
@@ -132,7 +132,33 @@ html{
 }
 // #3
 #gallery{
+  display: block;
   background-image: url("../img/bkg/blackBoard.jpg");
+  & .galleyCategory{
+    cursor: pointer;
+    & .projectName{
+      display: inline-block;
+      img{
+        max-height: 4rem;
+      }
+    }
+    & .drawRarrow{
+      display: inline-block;
+      height: 6rem;
+      width: 6rem;
+      img{
+        height: 6rem;
+        width: 6rem;
+      }
+    }
+  }
+  & .photoGroup{
+    img{
+      padding: 0.5rem;
+      max-height: 10rem;
+      max-width: 10em;
+    }
+  }
 }
 // #4
 #about{
@@ -141,4 +167,5 @@ html{
 // #5
 #contact{
   background-image: url("../img/bkg/wall2.jpg");
+  background-size: cover;
 }
