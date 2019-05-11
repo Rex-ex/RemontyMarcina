@@ -137,18 +137,9 @@ html{
   & .galleyCategory{
     cursor: pointer;
     & .projectName{
-      display: inline-block;
+      padding: 1rem 0 1rem 1rem;
       img{
         max-height: 4rem;
-      }
-    }
-    & .drawRarrow{
-      display: inline-block;
-      height: 6rem;
-      width: 6rem;
-      img{
-        height: 6rem;
-        width: 6rem;
       }
     }
   }
@@ -156,7 +147,7 @@ html{
     img{
       padding: 0.5rem;
       max-height: 10rem;
-      max-width: 10em;
+      max-width: 10rem;
     }
   }
 }
