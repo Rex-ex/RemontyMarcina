@@ -168,16 +168,17 @@ html{
         }
       }
     }
-    & #project02 img{
-      max-height: 8rem;
+    @include respond-below(sm){
+      & #project02 img{
+        max-height: 8rem;
+      }
+      & #project03 img{
+        max-height: 7rem;
+      }
+      & #project04 img{
+        max-height: 5.75rem;
+      }
     }
-    & #project03 img{
-      max-height: 7rem;
-    }
-    & #project04 img{
-      max-height: 5.75rem;
-    }
-
   }
   & .photoGroup{
     img{
