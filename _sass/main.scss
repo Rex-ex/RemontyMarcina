@@ -11,6 +11,7 @@ html{
   height: 100%;
 }
 .wrapper{
+  position: relative;
   width: 100%;
   background: $whiteDirt;
   overflow: hidden;
@@ -82,6 +83,26 @@ html{
 }
 // END -flex globals
 // END - GLOBALS
+// MENU
+.menuContainer{
+  position: fixed;
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  z-index: 40;
+  ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  ul li{
+    color: white;
+  }
+}
+// END-MENU
 // #1
 #jumbo{
   position: relative;
@@ -189,7 +210,7 @@ html{
   }
 }
 // #4
-#about{
+#aboutUs{
 
 }
 // #5
