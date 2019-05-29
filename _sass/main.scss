@@ -52,44 +52,52 @@ html{
   @include align-items(center);
   & .text{
     width: 75%;
-    line-height: 3rem;
+    padding: 1rem 0 1rem 0;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
     opacity: 1;
     z-index: 20;
 
     @include respond-above(xs){
-    width: 70%;
-    line-height: 3rem;
-    font-size: 2rem;
+    width: 85%;
+    // padding:
+    // line-height: 3rem;
+
     }
 
     @include respond-above(sm){
-    width: 70%;
-    line-height: 4rem;
-    font-size: 2rem;
+    width: 80%;
+    // line-height: 4rem;
+
     }
 
     @include respond-above(md){
-    width: 60%;
-    line-height: 4rem;
-    font-size: 2rem;
+    width: 70%;
+    // line-height: 4rem;
+
     }
 
     @include respond-above(lg){
-    width: 50%;
+    width: 65%;
     line-height: 4rem;
-    font-size: 2rem;
+    }
+    h1, h2{
+      padding-top: 1.5rem;
+      text-align: center;
     }
   }
 }
 // END -flex globals
 // END - GLOBALS
-// MENU
+// #0.1 MENU
 .menuContainer{
   position: fixed;
   display: none;
   height: 100vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
+  font-size: 3rem;
   overflow: hidden;
   z-index: 40;
   ul{
@@ -99,14 +107,11 @@ html{
     transform: translate(-50%, -50%);
   }
   ul li{
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> 7f33b2ce809c5635d83abdfa9970b548c42784f8
     color: white;
   }
 }
-// END-MENU
+// END- #0.1 MENU
 // #1
 #jumbo{
   position: relative;
@@ -156,13 +161,17 @@ html{
 
 // #2
 #welcome{
-
+  & #welcomeIcon{
+    padding: 1rem 0 1rem 0;
+    img{
+      height: 5rem;
+    }
+  }
   & #infoGraph{
-
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
     img{
       height: 30rem;
       width: 50rem;
@@ -215,7 +224,26 @@ html{
 }
 // #4
 #aboutUs{
-
+  & #aboutUsIcon{
+    padding: 1rem 0 1rem 0;
+    img{
+      height: 5rem;
+    }
+  }
+  & #certyficateGallery{
+    img{
+      padding: 0.5rem;
+      @include respond-below(xs){
+      max-width: 5rem;
+      }
+    }
+  }
+  & #materialsPhoto{
+    padding: 1rem 0 1rem 0;
+    img{
+      max-height: 12rem;
+    }
+  }
 }
 // #5
 #contact{
