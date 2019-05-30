@@ -8,6 +8,13 @@
     <!-- !! delete below line on final version -->
     <META NAME="robots" CONTENT="noindex,nofollow">
 
+    <!-- favicon -->
+    <link rel="icon" href="icons/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+
     <!-- main CSS -->
     <link rel="stylesheet" href="_css/main.css"/>
     <!-- bootstrap CSS-->
@@ -22,6 +29,9 @@
   <body>
   <div class="wrapper">
     <div class="menuContainer">
+      <div id="menuLogo">
+        <img src="img/jumbo/RMwhite.svg" alt="">
+      </div>
       <ul>
         <li><a href="#jumbo">Top</a></li>
         <li><a href="#welcome">Oferta</a></li>
@@ -32,16 +42,21 @@
     </div>
     <header>
       <div id="jumbo" class="cardContainer">
+        <div id="logo">
+          <img src="img/jumbo/RMblue.svg" />
+        </div>
+
+        <div id="phoneIcon">
+          <a href="tel:512818102"><img src="icons/phoneNumber.svg" alt="phone number icon" />
+          </a>
+        </div>
+
         <div id="menuHam">
           <div class="hamburger hamburger--squeeze">
             <div class="hamburger-box">
               <div class="hamburger-inner"></div>
             </div>
           </div>
-        </div>
-
-        <div id="logo">
-          <img src="img/jumbo/RMcolor.svg" />
         </div>
 
         <div id="carouselContainer">
@@ -90,7 +105,8 @@
         </div>
         <div class="text">
           <p>
-            Praca wykończeniowe wnętrz to nasza pasja i specjalność.
+            Remonty Marcina to firma remontowo - wykończeniowa działajaca na terenie miasta Poznania i okolica.
+            <br/>Praca wykończeniowe wnętrz to nasza pasja i specjalność.
             Cenimy estetykę i gwarantujemy wysoką jakość wykonanych przez nas prac.
             Oferujemy przygotowanie do zamieszkania domy jedno – i wielorodzinne.
             Podejmujemy się remontów mieszkań w stanie deweloperskim jak i już zamieszkanych.
@@ -317,7 +333,22 @@
     </section>
 
     <footer>
-      <div id="contact" class="cardContainer">
+      <div id="contact" class="cardContainer centeredContent">
+        <div id="footerBkg">
+          <div id="footerLogo">
+            <img src="img/jumbo/RMblue.svg" />
+          </div>
+          <div id="phoneFooter">
+            <a href="tel:512818102"><img src="icons/phoneNumber.svg" alt="phone number icon" />
+            </a>
+          </div>
+          <div id="mailTo">
+            <a href="mailto:remontymarcina@gmail.com"><img src="icons/mailTo.svg" alt="mail icon"/></a>
+          </div>
+          <div id="fbRM">
+            <a href="https://www.facebook.com/frbhoffmann/" target="_blank"><img src="icons/fbRemontyMarcina.svg" alt="fb icon"/></a>
+          </div>
+        </div>
       </div>
     </footer>
 
