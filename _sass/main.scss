@@ -34,6 +34,7 @@ html{
   }
 }
 // END - RWD hidden / visible
+// flex globals
 .cardContainer{
   position: relative;
   @include flexbox();
@@ -45,7 +46,6 @@ html{
   font-family: 'Lato', sans-serif 'Calibri';
   font-size: 1.5rem;
 }
-// flex globals
 .centeredContent{
   @include flex-direction(column);
   @include justify-content(center);
@@ -220,27 +220,33 @@ html{
           max-height: 6rem;
         }
         @include respond-above(sm){
-          max-height: 4rem;
+          max-height: 6rem;
         }
       }
     }
-    @include respond-below(sm){
-      & #project02 img{
-        max-height: 8rem;
-      }
-      & #project03 img{
-        max-height: 7rem;
-      }
-      & #project04 img{
-        max-height: 5.75rem;
-      }
-    }
+    // @include respond-below(sm){
+    //   & #project02 img{
+    //     max-height: 8rem;
+    //   }
+    //   & #project03 img{
+    //     max-height: 7rem;
+    //   }
+    //   & #project04 img{
+    //     max-height: 5.75rem;
+    //   }
+    // }
   }
   & .photoGroup{
     img{
       padding: 0.5rem;
       max-height: 10rem;
       max-width: 10rem;
+    }
+  }
+  & .showMore{
+    padding: 1rem;
+    p{
+      color: #FFF;
     }
   }
 }
