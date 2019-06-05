@@ -213,28 +213,67 @@ html{
   }
   & .galleyCategory{
     cursor: pointer;
+    overflow: hidden;
     & .projectName{
       padding: 1rem 0 1rem 1rem;
-      img{
-        @include respond-below(sm){
-          max-height: 6rem;
+      & .arrow{
+        display: inline-block;
+        height: 4rem;
+        width: 6rem;
+        background: url("../icons/rightArrowWhite.svg") center;
+        background-size: cover;
+        // outline: 1px green solid;
+      }
+      & .showGallerybtn{
+        position: relative;
+        display: inline-block;
+        height: 6rem;
+        width: 9rem;
+        background-size: cover;
+        border: 2px #FFF solid;
+        border-radius: 0.25rem;
+        transition: all .2s ease-in-out;
+        &:hover{
+        border-color: $logoBlue;
+        };
+        &:hover .iconPlus{
+          height: 3rem;
+          width: 3rem;
+        };
+        & .btnFilter{
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.1);
         }
-        @include respond-above(sm){
-          max-height: 6rem;
+        & .iconPlus{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 2rem;
+          width: 2rem;
+          background-image: url("../icons/plusWhite.svg");
+          background-size: contain;
+          transition: all .2s ease-in-out;
         }
       }
+      & #galleyBtn01{
+        background-image: url("../img/gallery/project01/RMe01-07_thb.jpg");
+      }
+      & #galleyBtn02{
+        background-image: url("../img/gallery/project02/RMe02-03_thb.jpg");
+      }
+      & #galleyBtn03{
+        background: url("../img/gallery/project03/RMe03-02_thb.jpg") center center;
+        background-size: cover;
+      }
+      & #galleyBtn04{
+        background-image: url("../img/gallery/project04/RMe04-03_thb.jpg");
+      }
     }
-    // @include respond-below(sm){
-    //   & #project02 img{
-    //     max-height: 8rem;
-    //   }
-    //   & #project03 img{
-    //     max-height: 7rem;
-    //   }
-    //   & #project04 img{
-    //     max-height: 5.75rem;
-    //   }
-    // }
   }
   & .photoGroup{
     img{
