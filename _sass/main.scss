@@ -140,8 +140,11 @@ html{
   & #phoneIcon{
     position: absolute;
     top: 0.2rem;
-    left: 38%;
+    left: 28%;
     z-index: 20;
+    @include respond-above(sm){
+    left: 40%;
+    }
     a{
       height: 3rem;
       width: 10rem;
@@ -211,6 +214,15 @@ html{
       max-height: 6rem;
     }
   }
+  & .collapsed {
+    & .showGallerybtn{
+      border-color: #FFF !important;
+      & .iconPlus{
+        height: 2rem !important;
+        width: 2rem !important;
+      }
+    }
+  }
   & .galleyCategory{
     cursor: pointer;
     overflow: hidden;
@@ -230,16 +242,16 @@ html{
         height: 6rem;
         width: 9rem;
         background-size: cover;
-        border: 2px #FFF solid;
+        border: 2px $logoBlue solid;
         border-radius: 0.25rem;
         transition: all .2s ease-in-out;
-        &:hover{
-        border-color: $logoBlue;
-        };
+        // &:hover{
+        // border-color: $logoBlue;
+        // };
         &:hover .iconPlus{
-          height: 3rem;
-          width: 3rem;
-        };
+          height: 3rem !important;
+          width: 3rem !important;
+        }
         & .btnFilter{
           position: absolute;
           top: 0;
@@ -253,8 +265,8 @@ html{
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          height: 2rem;
-          width: 2rem;
+          height: 3rem;
+          width: 3rem;
           background-image: url("../icons/plusWhite.svg");
           background-size: contain;
           transition: all .2s ease-in-out;
