@@ -58,25 +58,15 @@ html{
     text-align: justify;
     opacity: 1;
     z-index: 20;
-
     @include respond-above(xs){
     width: 85%;
-    // padding:
-    // line-height: 3rem;
     }
-
     @include respond-above(sm){
     width: 80%;
-    // line-height: 4rem;
-
     }
-
     @include respond-above(md){
     width: 70%;
-    // line-height: 4rem;
-
     }
-
     @include respond-above(lg){
     width: 65%;
     line-height: 4rem;
@@ -87,9 +77,9 @@ html{
     }
   }
 }
-// END -flex globals
+// END - flex globals
 // END - GLOBALS
-// #1.1 MENU
+// #1 MENU
 .menuContainer{
   position: fixed;
   display: none;
@@ -119,8 +109,8 @@ html{
     }
   }
 }
-// END- #1.1 MENU
-// #1.2
+// END- #1 MENU
+// #2 JUMBO
 #jumbo{
   position: relative;
   height: 100vh;
@@ -183,8 +173,8 @@ html{
 
   }
 }
- // END -#1.2
-// #2
+ // END - #2 JUMBO
+// #3 WELCOME
 #welcome{
   & #welcomeIcon{
     padding: 1rem 0 1rem 0;
@@ -193,17 +183,14 @@ html{
     }
   }
   & #infoGraph{
-      // position: absolute;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -50%);
     img{
       height: 30rem;
       width: 50rem;
     }
   }
 }
-// #3
+// END -#3 WELCOME
+// #4 GALLERY
 #gallery{
   display: block;
   min-height: 60rem;
@@ -225,7 +212,6 @@ html{
   }
   & .galleyCategory{
     cursor: pointer;
-    overflow: hidden;
     & .projectName{
       padding: 1rem 0 1rem 1rem;
       & .arrow{
@@ -234,7 +220,6 @@ html{
         width: 6rem;
         background: url("../icons/rightArrowWhite.svg") center;
         background-size: cover;
-        // outline: 1px green solid;
       }
       & .showGallerybtn{
         position: relative;
@@ -245,12 +230,11 @@ html{
         border: 2px $logoBlue solid;
         border-radius: 0.25rem;
         transition: all .2s ease-in-out;
-        // &:hover{
-        // border-color: $logoBlue;
-        // };
         &:hover .iconPlus{
+          @include respond-above(md){
           height: 3rem !important;
           width: 3rem !important;
+          }
         }
         & .btnFilter{
           position: absolute;
@@ -301,7 +285,8 @@ html{
     }
   }
 }
-// #4
+// END -#4 GALLERY
+// #5 ABOUT US
 #aboutUs{
   & #aboutUsIcon{
     padding: 1rem 0 1rem 0;
@@ -327,7 +312,8 @@ html{
     }
   }
 }
-// #5
+// END - #5 ABOUT US
+// #6 CONTACT
 #contact{
   background-image: url("../img/bkg/wall2.jpg");
   background-size: cover;
@@ -353,3 +339,4 @@ html{
     }
   }
 }
+// END - #6 CONTACT 
