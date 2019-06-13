@@ -194,7 +194,8 @@ html{
 #gallery{
   display: block;
   min-height: 60rem;
-  background-image: url("../img/bkg/blackBoard.jpg");
+  background-color: #333;
+  // background-image: url("../img/bkg/blackBoard.jpg");
   & #galleryIcon{
     img{
       width: 100%;
@@ -339,4 +340,4 @@ html{
     }
   }
 }
-// END - #6 CONTACT 
+// END - #6 CONTACT
