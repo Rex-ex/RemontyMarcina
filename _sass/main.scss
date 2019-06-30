@@ -197,6 +197,11 @@ html{
   min-height: 50rem;
   background-color: #333;
   // background-image: url("../img/bkg/blackBoard.jpg");
+  & #accordionOne{
+    max-width: 32rem;
+    margin: 0 auto;
+    // outline: 2px green solid;
+  }
   & #galleryIcon{
     img{
       width: 100%;
@@ -259,13 +264,20 @@ html{
         }
       }
       & #galleyBtn01{
-        background-image: url("../img/gallery/project01/RMe01-07_thb.jpg");
+        background-image: url("../img/gallery/project01/RMe01-11_thb.jpg");
+      }
+      & #galleyBtn01a{
+        background-image: url("../img/gallery/project01a/RMe01a-06_thb.jpg");
       }
       & #galleyBtn02{
-        background-image: url("../img/gallery/project02/RMe02-03_thb.jpg");
+        background-image: url("../img/gallery/project02/RMe02-09_thb.jpg");
       }
       & #galleyBtn03{
-        background: url("../img/gallery/project03/RMe03-02_thb.jpg") center center;
+        background: url("../img/gallery/project03/RMe03-04_thb.jpg") center center;
+        background-size: cover;
+      }
+      & #galleyBtn03a{
+        background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center center;
         background-size: cover;
       }
       & #galleyBtn04{

@@ -404,6 +404,11 @@ html {
   background-color: #333;
 }
 
+#gallery #accordionOne {
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
 #gallery #galleryIcon img {
   width: 100%;
   max-height: 6rem;
@@ -474,15 +479,24 @@ html {
 }
 
 #gallery .galleyCategory .projectName #galleyBtn01 {
-  background-image: url("../img/gallery/project01/RMe01-07_thb.jpg");
+  background-image: url("../img/gallery/project01/RMe01-11_thb.jpg");
+}
+
+#gallery .galleyCategory .projectName #galleyBtn01a {
+  background-image: url("../img/gallery/project01a/RMe01a-06_thb.jpg");
 }
 
 #gallery .galleyCategory .projectName #galleyBtn02 {
-  background-image: url("../img/gallery/project02/RMe02-03_thb.jpg");
+  background-image: url("../img/gallery/project02/RMe02-09_thb.jpg");
 }
 
 #gallery .galleyCategory .projectName #galleyBtn03 {
-  background: url("../img/gallery/project03/RMe03-02_thb.jpg") center center;
+  background: url("../img/gallery/project03/RMe03-04_thb.jpg") center center;
+  background-size: cover;
+}
+
+#gallery .galleyCategory .projectName #galleyBtn03a {
+  background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center center;
   background-size: cover;
 }
 
