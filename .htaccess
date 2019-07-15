@@ -15,8 +15,7 @@ RewriteRule olx olx.html
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
 RewriteRule .* ? [F,L]
 
-
-AddType image/svg+xml svg svgz
+AddType image/svg+xml .svg .svgz
 AddEncoding gzip svgz
 
 SetOutputFilter DEFLATE

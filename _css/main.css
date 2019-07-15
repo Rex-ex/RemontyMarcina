@@ -361,7 +361,7 @@ html {
   right: 1rem;
   height: 4rem;
   width: 4rem;
-  background: url("../icons/menuIcon.svg");
+  background: url("../img/icons/menuIcon.svg");
   background-size: cover;
   z-index: 50;
 }
@@ -435,7 +435,7 @@ html {
   display: inline-block;
   height: 4rem;
   width: 6rem;
-  background: url("../icons/rightArrowWhite.svg") center;
+  background: url("../img/icons/rightArrowWhite.svg") center;
   background-size: cover;
 }
 
@@ -473,7 +473,7 @@ html {
   transform: translate(-50%, -50%);
   height: 3rem;
   width: 3rem;
-  background-image: url("../icons/plusWhite.svg");
+  background-image: url("../img/icons/plusWhite.svg");
   background-size: contain;
   transition: all .2s ease-in-out;
 }
