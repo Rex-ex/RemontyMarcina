@@ -34,6 +34,12 @@ html{
   display: inline;
   }
 }
+.LG{
+  display: none;
+  @include respond-above(lg){
+  display: inline;
+  }
+}
 // END - RWD hidden / visible
 // flex globals
 .cardContainer{
@@ -171,7 +177,15 @@ html{
       height: 30rem;
       width: 50rem;
     }
-
+  }
+  & #shield{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    img{
+    height: 12rem;
+    width: auto;
+    }
   }
 }
  // END - #2 JUMBO

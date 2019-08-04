@@ -206,6 +206,16 @@ html {
   }
 }
 
+.LG {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .LG {
+    display: inline;
+  }
+}
+
 .cardContainer {
   position: relative;
   display: -webkit-box;
@@ -383,6 +393,17 @@ html {
 #jumbo #carouselContainer img {
   height: 30rem;
   width: 50rem;
+}
+
+#jumbo #shield {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+#jumbo #shield img {
+  height: 12rem;
+  width: auto;
 }
 
 #welcome #welcomeIcon {
