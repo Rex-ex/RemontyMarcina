@@ -7,42 +7,43 @@
 @import "_hamMenuIcon";
 // @import "_gridCSSLayout_mxn";
 // #0 GLOBALS
-html{
+html {
   height: 100%;
 }
-.wrapper{
+.wrapper {
   position: relative;
   width: 100%;
-  background: #FFF;
+  background: #fff;
   // background: $whiteDirt;
   overflow: hidden;
-  a, a:hover{
+  a,
+  a:hover {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
   }
 }
 // RWD hidden / visible
-.SM{
+.SM {
   display: none;
-  @include respond-below(sm){
-  display: inline;
+  @include respond-below(sm) {
+    display: inline;
   }
 }
-.MD{
+.MD {
   display: none;
-  @include respond-above(sm){
-  display: inline;
+  @include respond-above(sm) {
+    display: inline;
   }
 }
-.LG{
+.LG {
   display: none;
-  @include respond-above(lg){
-  display: inline;
+  @include respond-above(lg) {
+    display: inline;
   }
 }
 // END - RWD hidden / visible
 // flex globals
-.cardContainer{
+.cardContainer {
   position: relative;
   @include flexbox();
   padding: 4rem 0 4rem 0;
@@ -50,14 +51,14 @@ html{
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  font-family: 'Lato', sans-serif 'Calibri';
+  font-family: "Lato", sans-serif "Calibri";
   font-size: 1.5rem;
 }
-.centeredContent{
+.centeredContent {
   @include flex-direction(column);
   @include justify-content(center);
   @include align-items(center);
-  & .text{
+  & .text {
     width: 75%;
     padding: 1rem 0 1rem 0;
     line-height: 2rem;
@@ -65,20 +66,21 @@ html{
     text-align: justify;
     opacity: 1;
     z-index: 20;
-    @include respond-above(xs){
-    width: 85%;
+    @include respond-above(xs) {
+      width: 85%;
     }
-    @include respond-above(sm){
-    width: 80%;
+    @include respond-above(sm) {
+      width: 80%;
     }
-    @include respond-above(md){
-    width: 70%;
+    @include respond-above(md) {
+      width: 70%;
     }
-    @include respond-above(lg){
-    width: 65%;
-    line-height: 4rem;
+    @include respond-above(lg) {
+      width: 65%;
+      line-height: 4rem;
     }
-    h1, h2{
+    h1,
+    h2 {
       padding-top: 1.5rem;
       text-align: center;
     }
@@ -87,7 +89,7 @@ html{
 // END - flex globals
 // END - GLOBALS
 // #1 MENU
-.menuContainer{
+.menuContainer {
   position: fixed;
   display: none;
   height: 100vh;
@@ -96,21 +98,21 @@ html{
   font-size: 2.5rem;
   overflow: hidden;
   z-index: 40;
-  ul{
+  ul {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  ul li{
+  ul li {
     text-align: center;
     color: white;
   }
-  & #menuLogo{
+  & #menuLogo {
     position: absolute;
     top: 1rem;
     left: 0.5rem;
-    img{
+    img {
       height: 5.625rem;
       width: 11.25rem;
     }
@@ -118,40 +120,40 @@ html{
 }
 // END- #1 MENU
 // #2 JUMBO
-#jumbo{
+#jumbo {
   position: relative;
   height: 100vh;
   background-image: url("../img/bkg/wallMockup.jpg");
   background-position: center bottom;
   background-size: cover;
-  & #logo{
+  & #logo {
     position: absolute;
     top: 2rem;
-    left:1rem;
+    left: 1rem;
     z-index: 20;
-    img{
+    img {
       height: 7.5rem;
       width: 15rem;
     }
   }
-  & #phoneIcon{
+  & #phoneIcon {
     position: absolute;
     top: 0.2rem;
     left: 28%;
     z-index: 20;
-    @include respond-above(sm){
-    left: 40%;
+    @include respond-above(sm) {
+      left: 40%;
     }
-    a{
+    a {
       height: 3rem;
       width: 10rem;
     }
-    img{
+    img {
       height: 3rem;
       width: 10rem;
     }
   }
-  & #menuHam{
+  & #menuHam {
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -161,7 +163,7 @@ html{
     background-size: cover;
     z-index: 50;
   }
-  & #carouselContainer{
+  & #carouselContainer {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -173,32 +175,32 @@ html{
     box-shadow: $shadowBlack;
     overflow: hidden;
     z-index: 10;
-    img{
+    img {
       height: 30rem;
       width: 50rem;
     }
   }
-  & #shield{
+  & #shield {
     position: absolute;
     bottom: 1%;
     right: 1%;
-    img{
-    height: 12rem;
-    width: auto;
+    img {
+      height: 12rem;
+      width: auto;
     }
   }
 }
- // END - #2 JUMBO
+// END - #2 JUMBO
 // #3 WELCOME
-#welcome{
-  & #welcomeIcon{
+#welcome {
+  & #welcomeIcon {
     padding: 1rem 0 1rem 0;
-    img{
+    img {
       height: 5rem;
     }
   }
-  & #infoGraph{
-    img{
+  & #infoGraph {
+    img {
       height: 30rem;
       width: 50rem;
     }
@@ -206,43 +208,46 @@ html{
 }
 // END -#3 WELCOME
 // #4 GALLERY
-#gallery{
+#gallery {
   display: block;
   min-height: 50rem;
   background-color: #333;
-  // background-image: url("../img/bkg/blackBoard.jpg");
-  & #accordionOne{
+  background-image: url("../img/bkg/blackBoard.png");
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  & #accordionOne {
     max-width: 32rem;
     margin: 0 auto;
     // outline: 2px green solid;
   }
-  & #galleryIcon{
-    img{
+  & #galleryIcon {
+    img {
       width: 100%;
       max-height: 6rem;
     }
   }
   & .collapsed {
-    & .showGallerybtn{
-      border-color: #FFF !important;
-      & .iconPlus{
+    & .showGallerybtn {
+      border-color: #fff !important;
+      & .iconPlus {
         height: 2rem !important;
         width: 2rem !important;
       }
     }
   }
-  & .galleyCategory{
+  & .galleyCategory {
     cursor: pointer;
-    & .projectName{
+    & .projectName {
       padding: 1rem 0 1rem 1rem;
-      & .arrow{
+      & .arrow {
         display: inline-block;
         height: 4rem;
         width: 6rem;
         background: url("../img/icons/rightArrowWhite.svg") center;
         background-size: cover;
       }
-      & .showGallerybtn{
+      & .showGallerybtn {
         position: relative;
         display: inline-block;
         height: 6rem;
@@ -250,14 +255,14 @@ html{
         background-size: cover;
         border: 2px $logoBlue solid;
         border-radius: 0.25rem;
-        transition: all .2s ease-in-out;
-        &:hover .iconPlus{
-          @include respond-above(md){
-          height: 3rem !important;
-          width: 3rem !important;
+        transition: all 0.2s ease-in-out;
+        &:hover .iconPlus {
+          @include respond-above(md) {
+            height: 3rem !important;
+            width: 3rem !important;
           }
         }
-        & .btnFilter{
+        & .btnFilter {
           position: absolute;
           top: 0;
           left: 0;
@@ -265,7 +270,7 @@ html{
           width: 100%;
           background-color: rgba(0, 0, 0, 0.1);
         }
-        & .iconPlus{
+        & .iconPlus {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -274,93 +279,97 @@ html{
           width: 3rem;
           background-image: url("../img/icons/plusWhite.svg");
           background-size: contain;
-          transition: all .2s ease-in-out;
+          transition: all 0.2s ease-in-out;
         }
       }
-      & #galleyBtn01{
+      & #galleyBtn01 {
         background-image: url("../img/gallery/project01/RMe01-11_thb.jpg");
       }
-      & #galleyBtn01a{
+      & #galleyBtn01a {
         background-image: url("../img/gallery/project01a/RMe01a-06_thb.jpg");
       }
-      & #galleyBtn02{
+      & #galleyBtn02 {
         background-image: url("../img/gallery/project02/RMe02-09_thb.jpg");
       }
-      & #galleyBtn03{
-        background: url("../img/gallery/project03/RMe03-04_thb.jpg") center center;
+      & #galleyBtn03 {
+        background: url("../img/gallery/project03/RMe03-04_thb.jpg") center
+          center;
         background-size: cover;
       }
-      & #galleyBtn03a{
-        background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center center;
+      & #galleyBtn03a {
+        background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center
+          center;
         background-size: cover;
       }
-      & #galleyBtn04{
+      & #galleyBtn04 {
         background-image: url("../img/gallery/project04/RMe04-03_thb.jpg");
       }
     }
   }
-  & .photoGroup{
-    img{
+  & .photoGroup {
+    img {
       padding: 0.5rem;
       max-height: 10rem;
       max-width: 10rem;
     }
   }
-  & .showMore{
+  & .showMore {
     padding: 1rem;
-    p{
-      color: #FFF;
+    p {
+      color: #fff;
     }
   }
 }
 // END -#4 GALLERY
 // #5 ABOUT US
-#aboutUs{
-  & #aboutUsIcon{
+#aboutUs {
+  & #aboutUsIcon {
     padding: 1rem 0 1rem 0;
-    img{
+    img {
       height: 5rem;
     }
   }
-  & #certificateGallery{
-    img{
+  & #certificateGallery {
+    img {
       padding: 0.5rem;
-      @include respond-below(xs){
-      max-width: 5rem;
+      @include respond-below(xs) {
+        max-width: 5rem;
       }
     }
   }
-  & #materialsPhoto{
+  & #materialsPhoto {
     padding: 1rem 0 1rem 0;
-    img{
+    img {
       max-height: 8rem;
-      @include respond-above(xs){
-      max-height: 12rem;
+      @include respond-above(xs) {
+        max-height: 12rem;
       }
     }
   }
 }
 // END - #5 ABOUT US
 // #6 CONTACT
-#contact{
+#contact {
   background-image: url("../img/bkg/wall2.jpg");
   background-size: cover;
-  & #footerBkg{
+  & #footerBkg {
     width: 80%;
-    @include respond-above(md){
-    width: 40%;
+    @include respond-above(md) {
+      width: 40%;
     }
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.5);
-    & #footerLogo{
-      img{
+    & #footerLogo {
+      img {
         width: 100%;
         max-height: 14rem;
       }
     }
-    & #phoneFooter, #mailTo, #fbRM{
+    & #phoneFooter,
+    #mailTo,
+    #fbRM {
       padding: 1rem;
-      img{
+      img {
         width: 100%;
         max-height: 4rem;
       }
