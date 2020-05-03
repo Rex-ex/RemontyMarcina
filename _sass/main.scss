@@ -207,7 +207,7 @@ html {
   }
 }
 // END -#3 WELCOME
-// #4 GALLERY
+// #4A GALLERY
 #gallery {
   display: block;
   min-height: 50rem;
@@ -304,6 +304,15 @@ html {
       & #galleyBtn04 {
         background-image: url("../img/gallery/project04/RMe04-03_thb.jpg");
       }
+      & #galleyBtn05 {
+        background-image: url("../img/gallery/project05/RMe05-03_thb.jpg");
+      }
+      & #galleyBtn06 {
+        background-image: url("../img/gallery/project06/RMe06-01_thb.jpg");
+      }
+      & #galleyBtn07 {
+        background-image: url("../img/gallery/project07/RMe07-04_thb.jpg");
+      }
     }
   }
   & .photoGroup {
@@ -311,6 +320,7 @@ html {
       padding: 0.5rem;
       max-height: 10rem;
       max-width: 10rem;
+      // box-shadow: $shadowWhite;
     }
   }
   & .showMore {
@@ -320,7 +330,22 @@ html {
     }
   }
 }
-// END -#4 GALLERY
+// END - #4A GALLERY
+// #4B PROJECT
+#project{
+  // background-color: grey;
+  & #projectIcon {
+    img {
+      width: 100%;
+      max-height: 10rem;
+    }
+  }
+  .clip{
+    box-shadow: $shadowBlack;
+  }
+}
+// END - #4B PROJECT
+
 // #5 ABOUT US
 #aboutUs {
   & #aboutUsIcon {
