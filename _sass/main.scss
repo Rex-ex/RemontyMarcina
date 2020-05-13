@@ -136,14 +136,19 @@ html {
       width: 15rem;
     }
   }
+
   .numbers{
   @include flexbox();
   position: absolute;
   top: 0rem;
-  left: 8%;
+  left: 1%;
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+
   @include respond-above(xs) {
     left: 18%;
-      }
+    }
   @include respond-above(sm) {
     left: 28%;
   }
@@ -151,21 +156,20 @@ html {
     left: 38%;
   }
   .phoneIcon{
-    @include flex-direction(row);
-    @include justify-content(center);
-    @include align-items(center);
-    // position: absolute;
-    // top: 0.2rem;
-    // left: 28%;
+    $phoneHeight: 3rem;
+    $phoneWidth: 10rem;
     z-index: 20;
     a {
+      padding: 0rem 0.25rem;
+      @include respond-above(xs) {
       padding: 0rem 1rem;
-      height: 3rem;
-      width: 10rem;
+      }
+      height: $phoneHeight;
+      width: $phoneWidth;
     }
     img {
-      height: 3rem;
-      width: 10rem;
+      height: $phoneHeight;
+      width: $phoneWidth;
     }
   }
 }
@@ -359,10 +363,17 @@ html {
   .clip{
     box-shadow: $shadowBlack;
     iframe{
-      width: 500px;
-      height: 300px;
-      @include respond-above(sm) {
+      width: 100%;
+      max-width: 400px;
+      height: 200px;
+      @include respond-above(xs) {
+        width: 500px;
+        max-width: 500px;
+        height: 300px;
+      }
+      @include respond-above(md) {
         width: 600px;
+        max-width: 600px;
         height: 400px;
       }
     }
