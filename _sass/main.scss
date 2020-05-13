@@ -136,15 +136,30 @@ html {
       width: 15rem;
     }
   }
-  & #phoneIcon {
-    position: absolute;
-    top: 0.2rem;
+  .numbers{
+  @include flexbox();
+  position: absolute;
+  top: 0rem;
+  left: 8%;
+  @include respond-above(xs) {
+    left: 18%;
+      }
+  @include respond-above(sm) {
     left: 28%;
+  }
+  @include respond-above(md) {
+    left: 38%;
+  }
+  .phoneIcon{
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include align-items(center);
+    // position: absolute;
+    // top: 0.2rem;
+    // left: 28%;
     z-index: 20;
-    @include respond-above(sm) {
-      left: 40%;
-    }
     a {
+      padding: 0rem 1rem;
       height: 3rem;
       width: 10rem;
     }
@@ -153,6 +168,7 @@ html {
       width: 10rem;
     }
   }
+}
   & #menuHam {
     position: fixed;
     top: 1rem;
@@ -342,6 +358,14 @@ html {
   }
   .clip{
     box-shadow: $shadowBlack;
+    iframe{
+      width: 500px;
+      height: 300px;
+      @include respond-above(sm) {
+        width: 600px;
+        height: 400px;
+      }
+    }
   }
 }
 // END - #4B PROJECT
@@ -390,9 +414,9 @@ html {
         max-height: 14rem;
       }
     }
-    & #phoneFooter,
+    & .phoneFooter,
     #mailTo,
-    #fbRM {
+    #fbRM, #regon, #nip {
       padding: 1rem;
       img {
         width: 100%;
