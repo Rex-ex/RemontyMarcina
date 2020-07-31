@@ -5,6 +5,7 @@
 @import "_flexbox_mxn";
 @import "_letStyles";
 @import "_hamMenuIcon";
+@import "_my-rwd";
 // @import "_gridCSSLayout_mxn";
 // #0 GLOBALS
 html {
@@ -89,7 +90,7 @@ html {
 // END - flex globals
 // END - GLOBALS
 // #1 MENU
-.menuContainer {
+.menuMobileContainer {
   position: fixed;
   display: none;
   height: 100vh;
@@ -116,6 +117,37 @@ html {
       height: 5.625rem;
       width: 11.25rem;
     }
+  }
+}
+.menuMainContainer{
+  position: fixed;
+  top: 0.2rem;
+  right: 0.2rem;
+  overflow: hidden;
+  z-index: 40;
+  ul{
+    @include flexbox();
+    li{
+      @include flex-direction(row);
+      @include justify-content(center);
+      @include align-items(center);
+      margin: 0 0.25rem;
+      padding: 0 1rem;
+      border: 2px $logoBlue solid;
+      border-radius: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: #FFF;
+      color: black;
+      box-shadow: $shadowBlackBox;
+      @include transition(all 0.3s);
+      img {
+        height: 1.5rem;
+      }
+    }
+  }
+  ul li:hover{
+    color: $logoBlue;
   }
 }
 // END- #1 MENU
@@ -148,15 +180,16 @@ html {
   @include align-items(center);
 
   @include respond-above(xs) {
-    left: 38%;
+    left: 36%;
     // left: 18%; second number
     }
   @include respond-above(sm) {
-    left: 38%;
+    left: 36%;
     // left: 28%; second number
   }
   @include respond-above(md) {
-    left: 42%;
+    left: 40%;
+    top: 3rem;
     // left: 38%; second number
   }
   .phoneIcon{

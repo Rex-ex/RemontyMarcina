@@ -37,6 +37,20 @@
   <!-- fancybox options -->
   <script defer src="js/jquery.fancybox.min.js"></script>
   <script defer src="js/fancyboxOptions.js"></script>
+  <!-- smoothScrollAnchor -->
+  <script defer src="js/smoothScrollAnchor.js"></script>
+  <!-- Cookie laert -->
+  <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+  <script>
+    CookieAlert.init({
+      style: 'light',
+      position: 'bottom',
+      opacity: '0.6',
+      displayTime: 10000,
+      cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+      text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+    });
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143838234-1"></script>
@@ -55,10 +69,20 @@
 
 <body>
   <div class="wrapper">
-    <div class="menuContainer">
+    <div class="menuMobileContainer">
       <div id="menuLogo">
         <img src="img/jumbo/RMwhite.svg" alt="">
       </div>
+      <ul>
+        <li><a href="#jumbo">Top</a></li>
+        <li><a href="#welcome">Oferta</a></li>
+        <li><a href="#galleySection">Galeria</a></li>
+        <li><a href="#project">Nasze&nbsp;projekty</a></li>
+        <li><a href="#aboutUs">O&nbsp;nas</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="menuMainContainer LG-H-BE">
       <ul>
         <li><a href="#jumbo">Top</a></li>
         <li><a href="#welcome">Oferta</a></li>
@@ -87,7 +111,7 @@
         </div>
 
 
-        <div id="menuHam">
+        <div id="menuHam" class="LG-H-AB">
           <div class="hamburger hamburger--squeeze">
             <div class="hamburger-box">
               <div class="hamburger-inner"></div>

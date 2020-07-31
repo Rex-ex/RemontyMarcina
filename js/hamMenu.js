@@ -1,7 +1,7 @@
 $(document).ready(function() {
   const hamburger = $('.hamburger');
-  const menuContainter = $('.menuContainer');
-  const menuLI = $(".menuContainer ul li");
+  const menuContainter = $('.menuMobileContainer');
+  const menuLI = $(".menuMobileContainer ul li");
   $(hamburger).click(function(){
       hamburger.toggleClass('is-active');
       menuContainter.toggle();

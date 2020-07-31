@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Remonty Marcina</title>
-  <META NAME="robots" CONTENT="noindex,nofollow">
+  <title>TEST-Remonty Marcina</title>
   <!-- favicon -->
   <link rel="icon" href="img/icons/favicon/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="img/icons/favicon/favicon.ico" type="image/x-icon" />
@@ -38,6 +37,20 @@
   <!-- fancybox options -->
   <script defer src="js/jquery.fancybox.min.js"></script>
   <script defer src="js/fancyboxOptions.js"></script>
+  <!-- smoothScrollAnchor -->
+  <script defer src="js/smoothScrollAnchor.js"></script>
+  <!-- Cookie laert -->
+  <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+  <script>
+    CookieAlert.init({
+      style: 'light',
+      position: 'bottom',
+      opacity: '0.6',
+      displayTime: 10000,
+      cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+      text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+    });
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143838234-1"></script>
@@ -56,10 +69,20 @@
 
 <body>
   <div class="wrapper">
-    <div class="menuContainer">
+    <div class="menuMobileContainer">
       <div id="menuLogo">
         <img src="img/jumbo/RMwhite.svg" alt="">
       </div>
+      <ul>
+        <li><a href="#jumbo">Top</a></li>
+        <li><a href="#welcome">Oferta</a></li>
+        <li><a href="#galleySection">Galeria</a></li>
+        <li><a href="#project">Nasze&nbsp;projekty</a></li>
+        <li><a href="#aboutUs">O&nbsp;nas</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="menuMainContainer LG-H-BE">
       <ul>
         <li><a href="#jumbo">Top</a></li>
         <li><a href="#welcome">Oferta</a></li>
@@ -81,14 +104,14 @@
             <a href="tel:512818102"><img src="img/icons/phoneNumber.svg" alt="phone number icon" />
             </a>
           </div>
-          <div class="phoneIcon">
+          <!-- <div class="phoneIcon">
             <a href="tel:514455311"><img src="img/icons/phoneNumber2.svg" alt="phone number icon two" />
             </a>
-          </div>
+          </div> -->
         </div>
 
 
-        <div id="menuHam">
+        <div id="menuHam" class="LG-H-AB">
           <div class="hamburger hamburger--squeeze">
             <div class="hamburger-box">
               <div class="hamburger-inner"></div>
@@ -129,9 +152,9 @@
           </div>
         </div>
 
-        <div id="shield" class="LG">
+        <!-- <div id="shield" class="LG">
           <img src="img/jumbo/blue_shieldOC.png" alt="logo OC/NW shield">
-        </div>
+        </div> -->
 
       </div>
     </header>
@@ -147,18 +170,18 @@
         </div>
         <div class="text">
           <p>
-            Remonty Marcina to firma remontowo - wykończeniowa działajaca na terenie miasta Poznania i okolic.
+            Remonty Marcina to firma remontowo - wykończeniowa działająca na terenie miasta Poznania i okolic.
             <br />Praca wykończeniowe wnętrz to nasza pasja i specjalność.
             Cenimy estetykę i gwarantujemy wysoką jakość wykonanych przez nas prac.
             Oferujemy przygotowanie do zamieszkania domy jedno – i wielorodzinne.
-            Podejmujemy się remontów mieszkań w stanie deweloperskim jak i już zamieszkanych.
+            Podejmujemy się remontów mieszkań w stanie deweloperskim, jak i już zamieszkanych.
             <br />Łączymy najnowsze trendy architektoniczne z pomysłami klienta.
             Najważniejsze jest dla nas przede wszystkim satysfakcja klienta, dlatego remonty wykonujemy w ścisłej współpracy z nim.
             Doradzamy sprawdzone rozwiązania.
           </p>
           <h2>Cena</h2>
           <p>
-            Kosztorysy i wyceny ustalamy indywidualnie z każdym klientem. Cena zależy od wielkości remontowanych pomieszczeń, stopnia skomplikowania, standardu wykończenia a także na podstawie lokalizacji, metrażu i zakresu prac.
+            Kosztorysy i wyceny ustalamy indywidualnie z każdym klientem. Cena zależy od wielkości remontowanych pomieszczeń, stopnia skomplikowania, standardu wykończenia, a także na podstawie lokalizacji, metrażu i zakresu prac.
             Dokładamy wszelkich starań się, aby ceny proponowane przeze nas były konkurencyjne.
             <br />Zawsze proponujemy rozsądną cenę za dobrze wykonaną pracę.
           </p>
@@ -1256,7 +1279,7 @@
           <p>
             Nasza firma realizuje usługi remontowe w Poznaniu, gdzie znajduje się siedziba firmy i jego okolicach. Nasze doświadczenie gwarantuje sprostaniu każdemu wyzwaniu, a Państwo mogą bez obaw powierzyć nam remont swojego domu lub mieszkania.
             <br />Posiadamy odpowiedni sprzęt, pozwalający na sprawne oraz terminowe wykonanie każdego zlecenia.
-            <br />Gwarantujemy bezpieczeństwo podczas naszych prac - posiadamy ubezpieczenie OC i NW.
+            <!-- <br />Gwarantujemy bezpieczeństwo podczas naszych prac - posiadamy ubezpieczenie OC i NW. -->
             <br />Nasze zdolności potwierdzają liczne certyfikaty ze specjalizacji wykończania wnętrz.
           </p>
 
@@ -1284,7 +1307,7 @@
             </a>
           </div>
 
-          <h2>Materiały i chemia budolana</h2>
+          <h2>Materiały i chemia budowlana</h2>
 
         </div>
 
@@ -1292,7 +1315,7 @@
           <h2><img src="img/materials/materials1.png" alt="materiały i chemia budowlana" /></h2>
         </div>
         <div class="text">
-          <p>Materiały remontowe, które wykorzystujemy są trwałe jak również bezpieczne dla użytkowników.
+          <p>Materiały remontowe, które wykorzystujemy, są trwałe, jak również bezpieczne dla użytkowników.
             Wybieramy najlepsze jakościowo materiały, takich firm jak: Flugger, Knauf, Atlas, Rigips, Isover.
             Jednym z celów naszej pracy jest szerokie doradztwo w dziedzinie doboru najlepszych materiałów budowlanych i służących do wykończenia, w tym kolorów farb, tak by domownicy mogli w pełni cieszyć się swoim domem.
             We wszystkie materiały zaopatrujemy się w hurtowni. Dzięki temu nasz klient nie musi się martwić zakupami.
@@ -1312,10 +1335,10 @@
             <a href="tel:512818102"><img src="img/icons/phoneNumber.svg" alt="phone number icon" />
             </a>
           </div>
-          <div class="phoneFooter">
+          <!-- <div class="phoneFooter">
             <a href="tel:514455311"><img src="img/icons/phoneNumber2.svg" alt="phone number icon" />
             </a>
-          </div>
+          </div> -->
           <div id="mailTo">
             <a href="mailto:remontymarcina@gmail.com"><img src="img/icons/mailTo.svg" alt="mail icon" /></a>
           </div>
