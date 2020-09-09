@@ -58,7 +58,7 @@ var CookieAlert = {
       }
       t.setAttribute("style", n);
       var s = '<div style="width:52px;display:inline-block;vertical-align:middle;text-align:right;">';
-      s += '<a href="' + o.options.cookiePolicy + '"><img src="http://cookiealert.sruu.pl/images/' + o.options.style + '/info.png" style="border:0;" title="Informacje o ciasteczkach"/></a>', s += '<img src="http://cookiealert.sruu.pl/images/' + o.options.style + '/close.png" id="CookieAlertClose" style="border:0;cursor:pointer;margin-left:8px;" title="Zamknij komunikat"/>', s += "</div>";
+      s += '<a href="' + o.options.cookiePolicy + '"><img src="img/cookieAlert/info.png" style="border:0;" title="Informacje o ciasteczkach"/></a>', s += '<img src="img/cookieAlert/close.png" id="CookieAlertClose" style="border:0;cursor:pointer;margin-left:8px;" title="Zamknij komunikat"/>', s += "</div>";
       var a = '<div style="width:calc(100% - 72px);display:inline-block;vertical-align:middle;text-align:center;">' + o.options.text + "</div>" + s;
       t.innerHTML = a, o.checkCookie(o.defines.cookieName) != o.defines.cookieValue && (document.body.appendChild(t), document.getElementById("CookieAlertClose").addEventListener("click", function() {
         o.removeDiv(o.defines.divID)
