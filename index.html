@@ -39,7 +39,7 @@
   <script defer src="js/cookieAlert.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143838234-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0855GS2N5K"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -48,9 +48,26 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'UA-143838234-1');
+    gtag('config', 'G-0855GS2N5K');
+    gtag('config', 'AW-460448545');
   </script>
 
+  <!-- Event snippet for Kontakt conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function() {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-460448545/cVeECLmGr-0BEKHGx9sB',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 </head>
 
 <body>
@@ -63,7 +80,7 @@
         <li><a href="#jumbo">Top</a></li>
         <li><a href="#welcome">Oferta</a></li>
         <li><a href="#galleySection">Galeria</a></li>
-        <li><a href="#project">Nasze&nbsp;projekty</a></li>
+        <li><a href="#project">Usługi</a></li>
         <li><a href="#aboutUs">O&nbsp;nas</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
@@ -73,7 +90,7 @@
         <li><a href="#jumbo">Top</a></li>
         <li><a href="#welcome">Oferta</a></li>
         <li><a href="#galleySection">Galeria</a></li>
-        <li><a href="#project">Nasze&nbsp;projekty</a></li>
+        <li><a href="#project">Usługi</a></li>
         <li><a href="#aboutUs">O&nbsp;nas</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
@@ -148,7 +165,6 @@
     <section>
       <div id="welcome" class="cardContainer centeredContent">
         <div id="welcomeIcon">
-          <h1><img src="img/icons/welcomeIcon.svg" alt="oferta" /></h1>
         </div>
         <div id="infoGraph">
           <img class="SM" src="img/icons/infoGraphSM.svg" />
@@ -1249,7 +1265,16 @@
     <section>
       <div id="project" class="cardContainer centeredContent">
         <div id="projectIcon">
-          <h2><img src="img/icons/projectIcon.svg" alt="nasze projekty" /></h2>
+
+        </div>
+        <div class="text">
+          <p>
+          <h2>Malowanie i szpachlowanie</h2>
+          Malowanie i szpachlowanie to jedna z naszych głównych usług prac wykończeniowych w naszej działalności.
+          Malowanie i szpachlowanie wykonujemy za pomocą agregatu hydrodynamicznego w połączeniu z materiałami marki Semin/Flugger. Malowanie i szpachlowanie natryskowe to obecnie najpopularniejszy sposób dekorowania ścian i sufitów, a praca na
+          maszynach to wykonanie w lepszej jakości przy mniejszym nakładzie czasu. Zobacz jak wygląda kompleksowa usługa na przykładzie z jednej inwestycji na moim video.
+
+          </p>
         </div>
         <div class="clip">
           <iframe src="https://www.youtube.com/embed/cSQ-eSygwrI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen> </iframe>
@@ -1259,7 +1284,6 @@
     <section>
       <div id="aboutUs" class="cardContainer centeredContent">
         <div id="aboutUsIcon">
-          <h2><img src="img/icons/aboutUsIcon.svg" alt="O nas" /></h2>
         </div>
         <div class="text">
           <p>
@@ -1318,7 +1342,7 @@
             <h2><img src="img/jumbo/RMblue.svg" alt="kontakt" /></h2>
           </div>
           <div class="phoneFooter">
-            <a href="tel:512818102"><img src="img/icons/phoneNumber.svg" alt="phone number icon" />
+            <a href="tel:512818102"><img src="img/icons/phoneNumber.svg" alt="512818102 512 818 102" />
             </a>
           </div>
           <!-- <div class="phoneFooter">
@@ -1326,16 +1350,16 @@
             </a>
           </div> -->
           <div id="mailTo">
-            <a href="mailto:remontymarcina@gmail.com"><img src="img/icons/mailTo.svg" alt="mail icon" /></a>
+            <a href="mailto:remontymarcina@gmail.com"><img src="img/icons/mailTo.svg" alt="remontymarcina@gmail.com" /></a>
           </div>
           <div id="fbRM">
-            <a href="https://www.facebook.com/RemontyMarcina/" target="_blank"><img src="img/icons/fbRemontyMarcina.svg" alt="fb icon" /></a>
+            <a href="https://www.facebook.com/RemontyMarcina/" target="_blank"><img src="img/icons/fbRemontyMarcina.svg" alt="Facebook Remonty Marcina" /></a>
           </div>
           <div id="regon">
             <a href="https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/SearchDetails.aspx?Id=738f4e29-60bd-4d0a-bf56-07862616fef4" target="_blank"><img src="img/icons/regon.svg" alt="regon" /></a>
           </div>
           <div id="nip">
-            <a href="https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/SearchDetails.aspx?Id=738f4e29-60bd-4d0a-bf56-07862616fef4" target="_blank"><img src="img/icons/nip.svg" alt="nip" /></a>
+            <a href="https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/SearchDetails.aspx?Id=738f4e29-60bd-4d0a-bf56-07862616fef4" target="_blank"><img src="img/icons/nip.svg" alt="NIP 7792355201" /></a>
           </div>
         </div>
       </div>
