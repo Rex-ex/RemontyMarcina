@@ -1341,6 +1341,35 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     <footer>
       <div id="contact" class="cardContainer centeredContent">
         <div id="footerBox" class="f-box">
+          <div id="form" class="footerEl footerBkg">
+            <p>Formularz kontaktowy</p>
+            <form class="" action="index.html" method="post">
+              <div class="form-group">
+                <label for="name_form">imię:</label>
+                <input id="name_form" type="text" class="form-control" placeholder="wpisz imię" required autofocus>
+              </div>
+              <div class="form-group">
+                <label for="email_form">adres e-mail:</label>
+                <input id="email_form" type="email" class="form-control" placeholder="wpisz e-mail" required>
+                <!-- <div class="valid-feedback">poprawnie</div>
+                <div class="invalid-feedback">wpisz poprawnie</div> -->
+              </div>
+              <div class="form-group">
+                <label for="phone_form">numer telefonu:</label>
+                <input id="phone_form" type="tel" class="form-control" placeholder="np 878787878 bez spacji" maxlength="9" minlength="9">
+              </div>
+              <div class="form-group">
+                <label for="question_form">pytanie:</label>
+                <textarea id="question_form" class="form-control" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="captcha_form">dodaj liczby:</label>
+                <input id="captcha_form" type="number" class="form-control" placeholder="wpisz wynik" required maxlength="2">
+              </div>
+              <button type="submit" class="btn btn-primary">wyślij</button>
+              <input type="reset" class="btn btn-danger" value="wyczyść">
+            </form>
+          </div>
           <div id="contact_details" class="footerEl footerBkg">
             <div id="footerLogo">
               <h2><img src="img/jumbo/RMblue.svg" alt="kontakt" /></h2>
@@ -1366,8 +1395,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
               <a href="https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/SearchDetails.aspx?Id=738f4e29-60bd-4d0a-bf56-07862616fef4" target="_blank"><img src="img/icons/nip.svg" alt="NIP 7792355201" /></a>
             </div>
           </div>
-          <div id="form" class="footerEl footerBkg">
-          </div>
         </div>
 
 
@@ -1383,6 +1410,27 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     </footer>
 
   </div>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <!-- <script>
+    // Disable form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Get the forms we want to add validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script> -->
 </body>
 
 </html>

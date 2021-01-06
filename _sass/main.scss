@@ -62,7 +62,7 @@ html {
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  font-family: "Lato", sans-serif "Calibri";
+  font-family: "Lato", "Calibri" sans-serif ;
   font-size: 1.5rem;
 }
 .centeredContent {
@@ -485,7 +485,7 @@ html {
     @include respond-above(md) {
       width: 50%;
     }
-    margin: 0 0.25rem;
+    margin:0.25rem;
   }
   & #contact_details{
 
@@ -506,8 +506,10 @@ html {
     }
   }
   & #form{
-    height: 40rem;
-    background-color: orange;
+    p{font-size: 2rem;}
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+
   }
 }
 // END - #6 CONTACT
