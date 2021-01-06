@@ -3,6 +3,7 @@
 @import "_boxsizing";
 @import "_media-queries_mxn";
 @import "_flexbox_mxn";
+@import "_gridCSSLayout_mxn";
 @import "_letStyles";
 @import "_hamMenuIcon";
 @import "_my-rwd";
@@ -24,6 +25,13 @@ html {
     text-decoration: none;
     color: inherit;
   }
+}
+// f-box / g-box
+.f-box {
+  @include flexbox;
+}
+.g-box {
+  @include display-grid;
 }
 // RWD hidden / visible
 .SM {
@@ -451,13 +459,36 @@ html {
 #contact {
   background-image: url("../img/bkg/wall2.jpg");
   background-size: cover;
-  & #footerBkg {
-    width: 80%;
+  & #footerBox{
+    // f-box
+    // position: relative;
+    flex-direction: column;
+    width: 95%;
     @include respond-above(md) {
-      width: 40%;
+      flex-direction: row;
+      width: 80%;
     }
-    padding: 1rem;
+
+    // align-items: center;
+    // justify-content: center;
+  }
+  & .footerBkg {
+    // width: 80%;
+    // @include respond-above(md) {
+    //   width: 40%;
+    // }
+    padding: 0.5rem;
     background-color: rgba(255, 255, 255, 0.5);
+  }
+  & .footerEl{
+    width: 100%;
+    @include respond-above(md) {
+      width: 50%;
+    }
+    margin: 0 0.25rem;
+  }
+  & #contact_details{
+
     & #footerLogo {
       img {
         width: 100%;
@@ -473,6 +504,10 @@ html {
         max-height: 4rem;
       }
     }
+  }
+  & #form{
+    height: 40rem;
+    background-color: orange;
   }
 }
 // END - #6 CONTACT
