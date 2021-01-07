@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="_css/jquery.fancybox.min.css" />
 
   <!-- JQuery, bootstrap JS -->
-  <script defer src="js/jquery-3.3.1.min.js"></script>
+  <script defer src="js/jquery-3.5.1.min.js"></script>
   <script defer src="js/bootstrap.min.js"></script>
 
   <!-- hamburgersJS -->
@@ -1345,21 +1345,21 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <p>Formularz kontaktowy</p>
             <form class="" action="index.html" method="post">
               <div class="form-group">
-                <label for="name_form">imię:</label>
+                <!-- <label for="name_form">imię:</label> -->
                 <input id="name_form" type="text" class="form-control" placeholder="wpisz imię" required autofocus>
               </div>
               <div class="form-group">
-                <label for="email_form">adres e-mail:</label>
+                <!-- <label for="email_form">adres e-mail:</label> -->
                 <input id="email_form" type="email" class="form-control" placeholder="wpisz e-mail" required>
                 <!-- <div class="valid-feedback">poprawnie</div>
                 <div class="invalid-feedback">wpisz poprawnie</div> -->
               </div>
               <div class="form-group">
-                <label for="phone_form">numer telefonu:</label>
-                <input id="phone_form" type="tel" class="form-control" placeholder="np 878787878 bez spacji" maxlength="9" minlength="9">
+                <!-- <label for="phone_form">numer telefonu:</label> -->
+                <input id="phone_form" type="tel" class="form-control" placeholder="numer telefonu &lpar;opcjonalnie&rpar;" minlength="9" maxlength="11">
               </div>
               <div class="form-group">
-                <label for="question_form">pytanie:</label>
+                <!-- <label for="question_form">pytanie:</label> -->
                 <textarea id="question_form" class="form-control" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
               </div>
               <div class="form-group">
@@ -1410,27 +1410,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     </footer>
 
   </div>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  <!-- <script>
-    // Disable form submissions if there are invalid fields
-    (function() {
-      'use strict';
-      window.addEventListener('load', function() {
-        // Get the forms we want to add validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-  </script> -->
 </body>
 
 </html>
