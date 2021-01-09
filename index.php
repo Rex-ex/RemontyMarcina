@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <META NAME="robots" CONTENT="noindex,nofollow">
   <title>Remonty Marcina</title>
   <!-- favicon -->
   <link rel="icon" href="img/icons/favicon/favicon.ico" type="image/x-icon" />
@@ -1341,39 +1342,44 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     <footer>
       <div id="contact" class="cardContainer centeredContent">
         <div id="footerBox" class="f-box">
+          <!-- form  -->
+          <?php
+            include 'php/mail_form.php';
+          ?>
           <div id="form" class="footerEl footerBkg">
             <p>Formularz kontaktowy</p>
-            <form class="" action="index.html" method="post">
+            <form class="" action="index.php" method="post">
               <div class="form-group">
                 <!-- <label for="name_form">imię:</label> -->
-                <input id="name_form" type="text" class="form-control" placeholder="wpisz imię" required autofocus>
+                <input id="name_form" class="form-control" type="text" name="client_name" placeholder="wpisz imię" maxlength="50" required autofocus>
               </div>
               <div class="form-group">
                 <!-- <label for="email_form">adres e-mail:</label> -->
-                <input id="email_form" type="email" class="form-control" placeholder="wpisz e-mail" required>
+                <input id="email_form" class="form-control" type="email" name="client_email" placeholder="wpisz e-mail" required>
                 <!-- <div class="valid-feedback">poprawnie</div>
                 <div class="invalid-feedback">wpisz poprawnie</div> -->
               </div>
               <div class="form-group">
                 <!-- <label for="phone_form">numer telefonu:</label> -->
-                <input id="phone_form" type="tel" class="form-control" placeholder="numer telefonu &lpar;opcjonalnie&rpar;" minlength="9" maxlength="11">
+                <input id="phone_form" class="form-control" type="tel" name="client_tel"  placeholder="numer telefonu &lpar;opcjonalnie&rpar;" minlength="9" maxlength="11">
               </div>
               <div class="form-group">
                 <!-- <label for="question_form">pytanie:</label> -->
-                <textarea id="question_form" class="form-control" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
+                <textarea id="question_form" class="form-control" name="client_question" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
               </div>
               <div class="form-group">
                 <label for="captcha_form">dodaj liczby:</label>
-                <input id="captcha_form" type="number" class="form-control" placeholder="wpisz wynik" required maxlength="2">
+                <input id="captcha_form" class="form-control" type="number" name="client_sum" placeholder="wpisz wynik" required maxlength="2">
               </div>
               <div class="form-group">
-                <input id="check_form" type="checkbox" class="" required>
+                <input id="check_form" class="" type="checkbox"  required>
                 <label for="check_form">akceptuję <a href="#regulamin" style="color:blue;">regulamin</a></label>
               </div>
-              <button type="submit" class="btn btn-primary">wyślij</button>
+              <button type="submit" class="btn btn-primary"  name="submit">wyślij</button>
               <input type="reset" class="btn btn-danger" value="wyczyść">
             </form>
           </div>
+          <!-- END form -->
           <div id="contact_details" class="footerEl footerBkg">
             <div id="footerLogo">
               <h2><img src="img/jumbo/RMblue.svg" alt="kontakt" /></h2>
