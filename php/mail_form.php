@@ -13,21 +13,31 @@ if (isset($_POST['submit'])){
   $email = test_input($_POST["client_email"]);
   $tel = test_input($_POST["client_tel"]);
   $question = test_input($_POST["client_question"]);
-  $sum = test_input($_POST["client_sum"]);
+  // $sum = test_input($_POST["captcha_sum"]);
 
+  // test
+  // $a = $first_number + $second_number;
+  // echo "Sum is $sum". "\r\n";
+  // echo "First is $first_number". "\r\n";
+  // echo "Second is $second_number". "\r\n";
+  // echo "Answer is $a". "\r\n";
   // mail send
-    if (isset($name, $email, $question, $sum)){
+    if (isset($name, $email, $question)){
       // mail template
       include 'mail_template.php';
+      include 'form_modal_template.php';
+      // true to mail!!!!
       if (mail == true){
-        echo "mail wysłany";
+        showModal($msg_mailDone);
+        unset ($name, $email, $tel, $question);
+        unset ($_POST['submit']);
       } else {
-        echo "coś poszło nie tak!";
-      }      
-      // unset ($name, $email, $tel, $question, $sum);
-      // e-mail z potwierdzeniem do klienta???
+        showModal($msg_mailFail);
+      }
+
+
     } else {
-      echo "błąd w formularzu";
+      showModal($msg_error);
     }
 
 }

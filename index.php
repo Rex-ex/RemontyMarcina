@@ -26,8 +26,8 @@
   <link rel="stylesheet" href="_css/jquery.fancybox.min.css" />
 
   <!-- JQuery, bootstrap JS -->
-  <script defer src="js/jquery-3.5.1.min.js"></script>
-  <script defer src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- hamburgersJS -->
   <script defer src="js/hamMenu.js"></script>
@@ -1367,13 +1367,17 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 <!-- <label for="question_form">pytanie:</label> -->
                 <textarea id="question_form" class="form-control" name="client_question" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
               </div>
-              <div class="form-group">
-                <label for="captcha_form">dodaj liczby:</label>
-                <input id="captcha_form" class="form-control" type="number" name="client_sum" placeholder="wpisz wynik" required maxlength="2">
-              </div>
-              <div class="form-group">
-                <input id="check_form" class="" type="checkbox"  required>
-                <label for="check_form">akceptuję <a href="#regulamin" style="color:blue;">regulamin</a></label>
+              <!-- <div class="form-group">
+                <label for="captcha_form">dodaj liczby:&nbsp; -->
+                <?php
+                  // include 'php/captcha.php';
+                ?>
+                <!-- </label>
+                <input id="captcha_form" class="form-control" type="number" name="captcha_sum" placeholder="wpisz wynik" required maxlength="2">
+              </div> -->
+              <div class="form-group custom-control custom-checkbox">
+                <input id="check_form" class="custom-control-input" type="checkbox" required>
+                <label class="custom-control-label" for="check_form">akceptuję <a href="#regulamin" style="color:blue;">regulamin</a></label>
               </div>
               <button type="submit" class="btn btn-primary"  name="submit">wyślij</button>
               <input type="reset" class="btn btn-danger" value="wyczyść">
@@ -1418,6 +1422,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         </div>
       </div>
     </footer>
+
   </div>
 </body>
 
