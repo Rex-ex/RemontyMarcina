@@ -14,7 +14,7 @@ $message .= "E-mail klienta: $from" . "\r\n";
 $message .= "Telefon klienta: $phone" . "\r\n";
 $message .= "Pytanie klienta: $question" . "\r\n";
 
-
+// do głownego pliku!!!
 // send
 mail($to,$subject,$message,$headers);
 

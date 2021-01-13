@@ -168,8 +168,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
     <section>
       <div id="welcome" class="cardContainer centeredContent">
-        <div id="welcomeIcon">
-        </div>
+        <!-- <div id="welcomeIcon">
+        </div> -->
         <div id="infoGraph">
           <img class="SM" src="img/icons/infoGraphSM.svg" />
           <img class="MD" src="img/icons/infoGraphLG.svg" />
@@ -1287,8 +1287,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     </section>
     <section>
       <div id="aboutUs" class="cardContainer centeredContent">
-        <div id="aboutUsIcon">
-        </div>
+        <!-- <div id="aboutUsIcon">
+        </div> -->
         <div class="text">
           <p>
             Nasza firma realizuje usługi remontowe w Poznaniu, gdzie znajduje się siedziba firmy i jego okolicach. Nasze doświadczenie gwarantuje sprostaniu każdemu wyzwaniu, a Państwo mogą bez obaw powierzyć nam remont swojego domu lub mieszkania.
@@ -1350,22 +1350,16 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <p>Formularz kontaktowy</p>
             <form class="" action="index.php" method="post">
               <div class="form-group">
-                <!-- <label for="name_form">imię:</label> -->
-                <input id="name_form" class="form-control" type="text" name="client_name" placeholder="wpisz imię" maxlength="50" required autofocus>
+                <input id="name_form" class="form-control" type="text" name="client_name" placeholder="imię" maxlength="50" required>
               </div>
               <div class="form-group">
-                <!-- <label for="email_form">adres e-mail:</label> -->
-                <input id="email_form" class="form-control" type="email" name="client_email" placeholder="wpisz e-mail" required>
-                <!-- <div class="valid-feedback">poprawnie</div>
-                <div class="invalid-feedback">wpisz poprawnie</div> -->
+                <input id="email_form" class="form-control" type="email" name="client_email" placeholder="e-mail" required>
               </div>
               <div class="form-group">
-                <!-- <label for="phone_form">numer telefonu:</label> -->
                 <input id="phone_form" class="form-control" type="tel" name="client_tel"  placeholder="numer telefonu &lpar;opcjonalnie&rpar;" minlength="9" maxlength="11">
               </div>
               <div class="form-group">
-                <!-- <label for="question_form">pytanie:</label> -->
-                <textarea id="question_form" class="form-control" name="client_question" placeholder="zadaj pytanie" rows="5" cols="10" maxlength="700" required></textarea>
+                <textarea id="question_form" class="form-control" name="client_question" placeholder="zadaj pytanie lub opisz jaką pracę chcesz nam zlecić" rows="5" cols="10" maxlength="700" required></textarea>
               </div>
               <!-- <div class="form-group">
                 <label for="captcha_form">dodaj liczby:&nbsp; -->
@@ -1377,11 +1371,50 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
               </div> -->
               <div class="form-group custom-control custom-checkbox">
                 <input id="check_form" class="custom-control-input" type="checkbox" required>
-                <label class="custom-control-label" for="check_form">akceptuję <a href="#regulamin" style="color:blue;">regulamin</a></label>
+                <label class="custom-control-label" for="check_form">akceptuję <a href="#privacyPolicy" data-toggle="modal">politykę prywatności</a></label>
               </div>
               <button type="submit" class="btn btn-primary"  name="submit">wyślij</button>
-              <input type="reset" class="btn btn-danger" value="wyczyść">
+              <button type="reset" class="btn btn-danger" value="wyczyść">wyczyść</button>
             </form>
+            <!-- privacyPolicy Modal -->
+            <div class="modal" id="privacyPolicy">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Polityka prywatośći</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    1.	Administratorem Państwa danych osobowych jest REMONTY MARCINA MARCIN HOFFMANN </br>
+                    2.	Poniżej znajdują się wyszczególnione cele przetwarzania danych osobowych wraz z podstawami prawnymi:</br>
+                    A. w celu podjęcia na Państwa żądanie działań przed zawarciem umowy na świadczenie usług zgodnie z zakresem naszej działalności przetwarzamy następujące dane osobowe:
+                    Imię i nazwisko, adres zamieszkania, nazwa firmy, siedziba firmy, adres do korespondencji, adres planowanych prac, adres e-mail, numer telefonu, NIP, REGON, informacje zawarte w rejestrach publicznych, numer rachunku bankowego, numer IP oraz inne informacje, które umieszczone zostały w dokumentacji, którą od Państwa otrzymaliśmy;</br>
+                    B. w celu zawarcia i realizacji umowy, czyli świadczenie usług przetwarzamy następujące dane osobowe:
+                    Imię i nazwisko, adres zamieszkania, nazwa firmy, siedziba firmy, adres do korespondencji, adres prac, adres email, numer telefonu, NIP, REGON, informacje zawarte w rejestrach publicznych, numer rachunku bankowego, numer IP oraz inne informacje, które umieszczone zostały w dokumentacji, którą od Państwa otrzymaliśmy; podstawą prawną takiego przetwarzania danych jest art. 6 ust. 1 lit. b RODO, który pozwala przetwarzać dane osobowe, jeżeli są one konieczne do wykonania umowy lub podjęcia czynności zmierzających do zawarcia umowy między nami.</br>
+                    C. w celu wykonania ciążących na nas obowiązków prawnych, np.: wystawienia faktury VAT i dokonania rozliczeń podatkowych, przetwarzamy następujące dane osobowe:
+                    Imię i nazwisko, nazwa firmy, adres zamieszkania, siedzibę firmy, adres do korespondencji, adres e-mail, NIP, REGON, informacje zawarte w rejestrach publicznych, numer rachunku bankowego.
+                    numer IP oraz inne informacje, które umieszczone zostały w dokumentacji, którą od Państwa otrzymaliśmy;
+                    podstawą prawną takiego przetwarzania danych jest art. 6 ust. 1 lit. b RODO, który pozwala przetwarzać dane
+                    osobowe, jeżeli są one konieczne do wykonania umowy.
+                    interesem Administratora jest posiadanie danych osobowych, które pozwolą ustalić, dochodzić lub bronić się przed</br>
+                    D. w celu administrowania stroną internetową (automatyczne zapisywanie poniższych danych w tzw. Logach serwera, przy każdorazowym korzystaniu z naszej strony www) możemy przetwarzać takie
+                    dane osobowe jak:</br>
+                    Adres IP, data i czas serwera, informacje o przeglądarce internetowej, informacje o systemie operacyjnym;</br>
+                    J. w celu marketingu bezpośredniego, przetwarzamy następujące dane
+                    Imię i nazwisko, nazwa firmy, adres e-mail, numer telefonu, adres do korespondencji, dane zawarte w rejestrach publicznych np. KRS, CEIDG;</br>
+                    JAK ZREALIZOWAĆ PRAWO DO WYCOFANIA ZGODY?</br>
+                    1. Jeżeli przetwarzanie danych osobowych odbywa się na podstawie Twojej zgody, w każdej chwili możesz tą zgodę cofnąć — wedle własnego uznania.</br>
+                    2. Jeżeli chciałbyś cofnąć zgodę na przetwarzanie danych osobowych, to w tym celu wystarczy wysłać list bezpośrednio do Administratora Danych Osobowych lub wysłać email z dopiskiem „RODO”.</br>
+                    CZY PROWADZIMY ZAAUTOMATYZOWANE PODEJMOWANIE DECYZJI I PROFILOWANIE?</br>
+                    Uprzejmie informujemy, że korzystamy z narzędzi zautomatyzowanego podejmowania decyzji, w tym w oparciu o profilowanie. Używamy plików cookies Facebooka, które pozwalają nam zbierać informacje o sposobie korzystania z witryny przez użytkownika w tym na profilowanie.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">zamknij</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END privacyPolicy Modal -->
           </div>
           <!-- END form -->
           <div id="contact_details" class="footerEl footerBkg">

@@ -506,10 +506,16 @@ html {
     }
   }
   & #form{
-    p{font-size: 2rem;}
     font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.5);
-
+    p{font-size: 2rem;}
+    a{color: $logoBlue;}
+    input[type=text], input[type=email], input[type=tel], textarea {
+    border: 1px solid $logoBlue;
+    }
+    button[type=submit], button[type=reset]{
+      box-shadow: $shadowBlackBox;
+    }
   }
 }
 // END - #6 CONTACT
