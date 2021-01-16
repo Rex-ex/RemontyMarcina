@@ -286,7 +286,7 @@ html {
   & #accordionOne {
     max-width: 32rem;
     margin: 0 auto;
-    // outline: 2px green solid;
+    outline: 2px green solid;
   }
   & #galleryIcon {
     img {
@@ -294,15 +294,15 @@ html {
       max-height: 6rem;
     }
   }
-  & .collapsed {
-    & .showGallerybtn {
-      border-color: #fff !important;
-      & .iconPlus {
-        height: 2rem !important;
-        width: 2rem !important;
-      }
-    }
-  }
+  // & .collapsed {
+  //   & .showGallerybtn {
+  //     border-color: #fff !important;
+  //     & .iconPlus {
+  //       height: 2rem !important;
+  //       width: 2rem !important;
+  //     }
+  //   }
+  // }
   & .galleyCategory {
     cursor: pointer;
     & .projectName {
@@ -320,9 +320,14 @@ html {
         height: 6rem;
         width: 9rem;
         background-size: cover;
-        border: 2px $logoBlue solid;
+        border: 3px #fff solid !important;
+        // border: 2px $logoBlue solid;
         border-radius: 0.25rem;
         transition: all 0.2s ease-in-out;
+        img{
+          height: 100%;
+          width: 100%;
+        }
         &:hover .iconPlus {
           @include respond-above(md) {
             height: 3rem !important;
@@ -349,37 +354,37 @@ html {
           transition: all 0.2s ease-in-out;
         }
       }
-      & #galleyBtn01 {
-        background-image: url("../img/gallery/project01/RMe01-11_thb.jpg");
-      }
-      & #galleyBtn01a {
-        background-image: url("../img/gallery/project01a/RMe01a-06_thb.jpg");
-      }
-      & #galleyBtn02 {
-        background-image: url("../img/gallery/project02/RMe02-09_thb.jpg");
-      }
-      & #galleyBtn03 {
-        background: url("../img/gallery/project03/RMe03-04_thb.jpg") center
-          center;
-        background-size: cover;
-      }
-      & #galleyBtn03a {
-        background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center
-          center;
-        background-size: cover;
-      }
-      & #galleyBtn04 {
-        background-image: url("../img/gallery/project04/RMe04-03_thb.jpg");
-      }
-      & #galleyBtn05 {
-        background-image: url("../img/gallery/project05/RMe05-03_thb.jpg");
-      }
-      & #galleyBtn06 {
-        background-image: url("../img/gallery/project06/RMe06-01_thb.jpg");
-      }
-      & #galleyBtn07 {
-        background-image: url("../img/gallery/project07/RMe07-04_thb.jpg");
-      }
+      // & #galleyBtn01 {
+      //   background-image: url("../img/gallery/project01/RMe01-11_thb.jpg");
+      // }
+      // & #galleyBtn01a {
+      //   background-image: url("../img/gallery/project01a/RMe01a-06_thb.jpg");
+      // }
+      // & #galleyBtn02 {
+      //   background-image: url("../img/gallery/project02/RMe02-09_thb.jpg");
+      // }
+      // & #galleyBtn03 {
+      //   background: url("../img/gallery/project03/RMe03-04_thb.jpg") center
+      //     center;
+      //   background-size: cover;
+      // }
+      // & #galleyBtn03a {
+      //   background: url("../img/gallery/project03a/RMe03a-01_thb.jpg") center
+      //     center;
+      //   background-size: cover;
+      // }
+      // & #galleyBtn04 {
+      //   background-image: url("../img/gallery/project04/RMe04-03_thb.jpg");
+      // }
+      // & #galleyBtn05 {
+      //   background-image: url("../img/gallery/project05/RMe05-03_thb.jpg");
+      // }
+      // & #galleyBtn06 {
+      //   background-image: url("../img/gallery/project06/RMe06-01_thb.jpg");
+      // }
+      // & #galleyBtn07 {
+      //   background-image: url("../img/gallery/project07/RMe07-04_thb.jpg");
+      // }
     }
   }
   & .photoGroup {
@@ -388,12 +393,6 @@ html {
       max-height: 10rem;
       max-width: 10rem;
       // box-shadow: $shadowWhite;
-    }
-  }
-  & .showMore {
-    padding: 1rem;
-    p {
-      color: #fff;
     }
   }
 }
