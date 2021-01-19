@@ -1357,7 +1357,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
               <!-- <div class="form-group">
                 <label for="captcha_form">dodaj liczby:&nbsp; -->
               <?php
-                  include 'php/captcha.php';
+                  // include 'php/captcha.php';
                 ?>
               <!-- </label>
                 <input id="captcha_form" class="form-control" type="number" name="captcha_sum" placeholder="wpisz wynik" required maxlength="2">
