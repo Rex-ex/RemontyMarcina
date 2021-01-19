@@ -200,7 +200,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <div id="galleryIcon">
           <h2><img src="img/icons/galleryIcon.svg" alt="galeria" /></h2>
         </div>
-        <div id="accordionOne">
+        <div id="accordionOne" class="f-box">
           <!-- #project01 -->
           <!-- arrow & name -->
           <div class="galleyCategory">
@@ -749,11 +749,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <!-- photos -->
           <div id="collapseThreea" class="collapse" data-parent="#accordionOne">
             <div id="photo#3a" class="photoGroup">
-              <a href="img/gallery/project03a/RMe03a-01.jpg" data-fancybox="gallery3a" data-caption="">
+              <!-- <a href="img/gallery/project03a/RMe03a-01.jpg" data-fancybox="gallery3a" data-caption="">
                 <img src="img/gallery/project03a/RMe03a-01_thb.jpg" alt="" />
-              </a>
+              </a> -->
               <a href="img/gallery/project03a/RMe03a-02.jpg" data-fancybox="gallery3a" data-caption="">
-                <img src="img/gallery/project03a/RMe03a-02_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03a/RMe03a-02_thb.jpg" alt="" /> -->
               </a>
             </div>
 
