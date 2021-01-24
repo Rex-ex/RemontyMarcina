@@ -9,6 +9,7 @@
 @import "_my-rwd";
 @import "_mapGoogle";
 @import "_fbLikeBox";
+@import "_subSite";
 // @import "_gridCSSLayout_mxn";
 // #0 GLOBALS
 html {
@@ -267,9 +268,51 @@ html {
     }
   }
   & #infoGraph {
-    img {
-      height: 20rem;
-      width: 50rem;
+    position: relative;
+    #infoBkg {
+      z-index: 10;
+      img {
+        height: 20rem;
+        width: 50rem;
+      }
+    }
+    #infoElem {
+      position: absolute;
+      top: 1.75rem;
+      left: 2.5rem;
+      width: 100%;
+      z-index: 11;
+      @include flex-direction(row);
+      $infoSize: 10rem;
+      img {
+        height: $infoSize + 1;
+        width: $infoSize - 1;
+        padding: 0.5rem;
+        transition: all 0.2s ease-in-out;
+        overflow: hidden;
+      }
+      .graphLNK:hover{
+        img{
+        // height: $infoSize + 1.250rem;
+        // width: $infoSize - 0.750rem;
+        // transform: skew(-10deg);
+        @keyframes bounce {
+          0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+          }
+          40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+          }
+          80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+          }
+        }
+        animation: bounce 1s;
+        }
+      }
     }
   }
 }

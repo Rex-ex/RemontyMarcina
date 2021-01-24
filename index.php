@@ -171,8 +171,22 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <!-- <div id="welcomeIcon">
         </div> -->
         <div id="infoGraph">
-          <img class="SM" src="img/icons/infoGraphSM.svg" />
-          <img class="MD" src="img/icons/infoGraphLG.svg" />
+          <div id="infoBkg">
+            <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="MD" src="img/icons/graphLG_bkg.svg" />
+          </div>
+          <div id="infoElem" class="f-box">
+            <!-- <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="SM" src="img/icons/infoGraphSM.svg" /> -->
+            <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_01.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_02.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_03.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_04.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_05.svg" title="Odwiedź blog Marcina"/></a>
+          </div>
         </div>
         <div class="text">
           <p>
