@@ -172,15 +172,17 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         </div> -->
         <div id="infoGraph">
           <div id="infoBkg">
-            <img class="SM" src="img/icons/infoGraphSM.svg" />
+            <img class="SM" src="img/icons/graphSM_bkg.svg" />
             <img class="MD" src="img/icons/graphLG_bkg.svg" />
           </div>
-          <div id="infoElem" class="f-box">
-            <!-- <img class="SM" src="img/icons/infoGraphSM.svg" />
-            <img class="SM" src="img/icons/infoGraphSM.svg" />
-            <img class="SM" src="img/icons/infoGraphSM.svg" />
-            <img class="SM" src="img/icons/infoGraphSM.svg" />
-            <img class="SM" src="img/icons/infoGraphSM.svg" /> -->
+          <div class="f-box" id="infoElemSM">
+            <a class="SM graphLNK" href="#"><img src="img/icons/graphSM_01.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="SM graphLNK" href="#"><img src="img/icons/graphSM_02.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="SM graphLNK" href="#"><img src="img/icons/graphSM_03.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="SM graphLNK" href="#"><img src="img/icons/graphSM_04.svg" title="Odwiedź blog Marcina"/></a>
+            <a class="SM graphLNK" href="#"><img src="img/icons/graphSM_05.svg" title="Odwiedź blog Marcina"/></a>
+          </div>
+          <div class="f-box" id="infoElemLG">
             <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_01.svg" title="Odwiedź blog Marcina"/></a>
             <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_02.svg" title="Odwiedź blog Marcina"/></a>
             <a class="MD graphLNK" href="#"><img src="img/icons/graphLG_03.svg" title="Odwiedź blog Marcina"/></a>
