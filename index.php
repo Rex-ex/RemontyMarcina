@@ -236,61 +236,61 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <div id="collapseOne" class="collapse" data-parent="#accordionOne">
             <div id="photo#1" class="photoGroup">
               <a href="img/gallery/project01/RMe01-01.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-01_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-01_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-02.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-02_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-02_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-03.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-03_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-03_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-04.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-04_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-04_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-05.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-05_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-05_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-06.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-06_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-06_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-07.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-07_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-07_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-08.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-08_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-08_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-09.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-09_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-09_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-10.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-10_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-10_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-11.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-11_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-11_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-12.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-12_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-12_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-13.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-13_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-13_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-14.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-14_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-14_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-15.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-15_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-15_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-16.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-16_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-16_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-17.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-17_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-17_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-18.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-18_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-18_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01/RMe01-19.jpg" data-fancybox="gallery1" data-caption="">
-                <img src="img/gallery/project01/RMe01-19_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01/RMe01-19_thb.jpg" alt="" /> -->
               </a>
             </div>
 
@@ -298,55 +298,55 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="collapse" id="collapseOneMore">
               <div id="photo#1More" class="photoGroup">
                 <a href="img/gallery/project01/stages/RMe01-ETAP01.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP01_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP01_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP02.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP02_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP02_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP03.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP03_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP03_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP04.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP04_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP04_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP05.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP05_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP05_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP06.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP06_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP06_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP07.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP07_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP07_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP08.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP08_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP08_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP09.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP09_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP09_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP10.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP10_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP10_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP11.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP11_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP11_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP12.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP12_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP12_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP13.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP13_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP13_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP14.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP14_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP14_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP15.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP15_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP15_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP16.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP16_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP16_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01/stages/RMe01-ETAP17.jpg" data-fancybox="gallery1" data-caption="">
-                  <img src="img/gallery/project01/stages/RMe01-ETAP17_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01/stages/RMe01-ETAP17_thb.jpg" alt="" /> -->
                 </a>
               </div>
             </div>
@@ -371,22 +371,22 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <div id="collapseOnea" class="collapse" data-parent="#accordionOne">
             <div id="photo#1a" class="photoGroup">
               <a href="img/gallery/project01a/RMe01a-01.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-01_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-01_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01a/RMe01a-02.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-02_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-02_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01a/RMe01a-03.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-03_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-03_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01a/RMe01a-04.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-04_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-04_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01a/RMe01a-05.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-05_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-05_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project01a/RMe01a-06.jpg" data-fancybox="gallery1a" data-caption="">
-                <img src="img/gallery/project01a/RMe01a-06_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project01a/RMe01a-06_thb.jpg" alt="" /> -->
               </a>
             </div>
 
@@ -399,25 +399,25 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="collapse" id="collapseOneaMore">
               <div id="photo#1aMore" class="photoGroup">
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP01.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP01_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP01_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP02.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP02_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP02_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP03.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP03_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP03_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP04.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP04_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP04_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP05.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP05_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP05_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP06.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP06_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP06_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project01a/stages/RMe01a-ETAP07.jpg" data-fancybox="gallery1a" data-caption="">
-                  <img src="img/gallery/project01a/stages/RMe01a-ETAP07_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project01a/stages/RMe01a-ETAP07_thb.jpg" alt="" /> -->
                 </a>
               </div>
             </div>
@@ -442,58 +442,58 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <div class="collapse" id="collapseTwo" data-parent="#accordionOne">
             <div id="photo#2" class="photoGroup">
               <a href="img/gallery/project02/RMe02-01.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-01_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-01_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-02.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-02_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-02_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-03.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-03_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-03_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-04.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-04_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-04_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-05.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-05_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-05_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-06.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-06_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-06_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-07.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-07_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-07_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-08.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-08_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-08_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-09.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-09_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-09_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-10.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-10_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-10_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-11.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-11_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-11_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-12.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-12_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-12_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-13.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-13_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-13_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-14.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-14_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-14_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-15.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-15_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-15_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-16.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-16_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-16_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-17.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-17_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-17_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project02/RMe02-18.jpg" data-fancybox="gallery2" data-caption="">
-                <img src="img/gallery/project02/RMe02-18_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project02/RMe02-18_thb.jpg" alt="" /> -->
               </a>
             </div>
 
@@ -507,82 +507,82 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="collapse" id="collapseTwoMore">
               <div id="photo#2More" class="photoGroup">
                 <a href="img/gallery/project02/stages/RMe02-ETAP01.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP01_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP01_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP02.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP02_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP02_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP03.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP03_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP03_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP04.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP04_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP04_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP05.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP05_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP05_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP06.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP06_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP06_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP07.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP07_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP07_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP08.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP08_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP08_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP09.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP09_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP09_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP10.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP10_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP10_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP11.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP11_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP11_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP12.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP12_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP12_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP13.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP13_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP13_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP14.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP14_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP14_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP15.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP15_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP15_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP16.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP16_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP16_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP17.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP17_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP17_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP18.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP18_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP18_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP19.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP19_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP19_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP20.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP20_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP20_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP21.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP21_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP21_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP22.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP22_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP22_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP23.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP23_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP23_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP24.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP24_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP24_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP25.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP25_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP25_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project02/stages/RMe02-ETAP26.jpg" data-fancybox="gallery2" data-caption="">
-                  <img src="img/gallery/project02/stages/RMe02-ETAP26_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project02/stages/RMe02-ETAP26_thb.jpg" alt="" /> -->
                 </a>
               </div>
             </div>
@@ -607,31 +607,31 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <div class="collapse" id="collapseThree" data-parent="#accordionOne">
             <div id="photo#3" class="photoGroup">
               <a href="img/gallery/project03/RMe03-01.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-01_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-01_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-02.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-02_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-02_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-03.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-03_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-03_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-04.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-04_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-04_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-05.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-05_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-05_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-06.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-06_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-06_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-07.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-07_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-07_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-08.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-08_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-08_thb.jpg" alt="" /> -->
               </a>
               <a href="img/gallery/project03/RMe03-09.jpg" data-fancybox="gallery3" data-caption="">
-                <img src="img/gallery/project03/RMe03-09_thb.jpg" alt="" />
+                <!-- <img src="img/gallery/project03/RMe03-09_thb.jpg" alt="" /> -->
               </a>
             </div>
 
@@ -645,103 +645,103 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="collapse" id="collapseThreeMore">
               <div id="photo#3More" class="photoGroup">
                 <a href="img/gallery/project03/stages/RMe03-ETAP01.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP01_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP01_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP02.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP02_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP02_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP03.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP03_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP03_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP04.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP04_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP04_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP05.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP05_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP05_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP06.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP06_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP06_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP07.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP07_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP07_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP08.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP08_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP08_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP09.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP09_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP09_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP10.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP10_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP10_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP11.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP11_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP11_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP12.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP12_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP12_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP13.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP13_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP13_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP14.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP14_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP14_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP15.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP15_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP15_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP16.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP16_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP16_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP17.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP17_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP17_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP18.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP18_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP18_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP19.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP19_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP19_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP20.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP20_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP20_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP21.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP21_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP21_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP22.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP22_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP22_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP23.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP23_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP23_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP24.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP24_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP24_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP25.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP25_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP25_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP26.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP26_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP26_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP27.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP27_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP27_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP28.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP28_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP28_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP29.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP29_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP29_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP30.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP30_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP30_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP31.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP31_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP31_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP32.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP32_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP32_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03/stages/RMe03-ETAP33.jpg" data-fancybox="gallery3" data-caption="">
-                  <img src="img/gallery/project03/stages/RMe03-ETAP33_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03/stages/RMe03-ETAP33_thb.jpg" alt="" /> -->
                 </a>
               </div>
             </div>
@@ -782,52 +782,52 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="collapse" id="collapseThreeaMore">
               <div id="photo#3aMore" class="photoGroup">
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP01.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP01_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP01_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP02.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP02_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP02_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP03.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP03_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP03_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP04.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP04_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP04_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP05.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP05_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP05_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP06.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP06_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP06_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP07.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP07_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP07_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP08.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP08_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP08_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP09.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP09_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP09_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP10.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP10_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP10_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP11.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP11_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP11_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP12.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP12_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP12_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP13.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP13_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP13_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP14.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP14_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP14_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP15.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP15_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP15_thb.jpg" alt="" /> -->
                 </a>
                 <a href="img/gallery/project03a/stages/RMe03a-ETAP16.jpg" data-fancybox="gallery3a" data-caption="">
-                  <img src="img/gallery/project03a/stages/RMe03a-ETAP16_thb.jpg" alt="" />
+                  <!-- <img src="img/gallery/project03a/stages/RMe03a-ETAP16_thb.jpg" alt="" /> -->
                 </a>
               </div>
             </div>

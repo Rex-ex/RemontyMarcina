@@ -269,6 +269,8 @@ html {
   }
   & #infoGraph {
     position: relative;
+    height: 20rem;
+    width: 50rem;
     #infoBkg {
       width: 100%;
       height: 100%;
@@ -282,17 +284,19 @@ html {
       position: absolute;
       top: 0rem;
       left: 0rem;
-      // width: 100%;
+      width: 100%;
       height: 100%;
       z-index: 11;
       @include flex-direction(column);
       // @include justify-content(center);
-      // @include align-items(center);
-      $infoSizeSM: 7rem;
+      @include align-items(center);
+      // outline: 1px solid green;
+      $infoSizeSM: 4rem;
       img {
+        // outline: 1px solid red;
         height: $infoSizeSM;
-        width: $infoSizeSM;
-        // padding: 0.5rem;
+        width: $infoSizeSM * 4;
+        padding: 0.1rem;
         transition: all 0.2s ease-in-out;
       }
     }
