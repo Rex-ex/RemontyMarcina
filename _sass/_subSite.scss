@@ -1,0 +1,42 @@
+.text_sub {
+  width: 75%;
+  padding: 1rem 0 1rem 0;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  text-align: justify;
+  opacity: 1;
+  z-index: 20;
+  @include respond-above(xs) {
+    width: 85%;
+  }
+  @include respond-above(sm) {
+    width: 80%;
+  }
+  @include respond-above(md) {
+    width: 70%;
+  }
+  @include respond-above(lg) {
+    width: 65%;
+    line-height: 4rem;
+  }
+  h1,
+  h2 {
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  & .artilcle_img{
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include align-items(center);
+    overflow: hidden;
+    img{
+    height: 20rem;
+    width: 95%;
+    @include respond-above(xs) {
+      width: 75%;
+    }
+    border: 4px $logoBlue solid;
+    border-radius: 5px;
+    }
+  }
+}
